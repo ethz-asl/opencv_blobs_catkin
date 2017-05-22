@@ -1,7 +1,7 @@
 <package>
-    <name>opencvblobs_catkin</name>
+    <name>opencv_blobs_catkin</name>
     <version>0.0.1</version>
-    <description>opencvblobs_catkin</description>
+    <description>opencv_blobs_catkin</description>
     <maintainer email="gawela@ethz.ch">Abel Gawel</maintainer>
     <maintainer email="deldonc@student.ethz.ch">Carlo Del Don</maintainer>
 
