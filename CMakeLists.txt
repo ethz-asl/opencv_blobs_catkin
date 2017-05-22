@@ -26,7 +26,7 @@ ExternalProject_Add(
 
         CONFIGURE_COMMAND cd ../opencv_blobs_src && cmake .
         -DCMAKE_INSTALL_PREFIX:PATH=${CATKIN_DEVEL_PREFIX}
-        -DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
+        -DCMAKE_BUILD_TYPE=Release
         -DBUILD_SHARED_LIBS:BOOL=true
 
         BUILD_COMMAND cd ../opencv_blobs_src && make -j 8
